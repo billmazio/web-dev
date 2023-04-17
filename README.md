@@ -1,8 +1,8 @@
 # web-dev
--html
--css
--Javascript
-![Στιγμιότυπο οθόνης (70)](https://user-images.githubusercontent.com/116730698/232515442-ddf1caca-e9a8-4c6b-981f-01f9a8539d2c.png)
-![Στιγμιότυπο οθόνης (71)](https://user-images.githubusercontent.com/116730698/232515464-9e44f097-ca08-4c54-9a49-b3c88916e089.png)
-![Στιγμιότυπο οθόνης (72)](https://user-images.githubusercontent.com/116730698/232515483-d1e2340f-b7ec-4aa9-8cdd-b00a01bd67a8.png)
-![Στιγμιότυπο οθόνης (73)](https://user-images.githubusercontent.com/116730698/232515496-561f1bd6-958c-4814-896e-fea6593d7309.png)
+html
+css
+Javascript
+![Στιγμιότυπο οθόνης (70)](https://user-images.githubusercontent.com/116730698/232516964-d597a234-e83e-4ba0-ab69-7afeaa868233.png)
+![Στιγμιότυπο οθόνης (74)](https://user-images.githubusercontent.com/116730698/232517155-5f7acd1f-bf76-4a50-afdd-6fcec2f3bf74.png)
+![Στιγμιότυπο οθόνης (75)](https://user-images.githubusercontent.com/116730698/232517179-cde105e6-c781-4e42-a5af-5392ff31e62d.png)
+![Στιγμιότυπο οθόνης (76)](https://user-images.githubusercontent.com/116730698/232517210-66504b8e-afcb-4502-b881-71167557c242.png)
