@@ -1,8 +1,5 @@
-# web-dev
+# web-dev a simple project of Html Css and Javascript
 
-html
-css
-Javascript
 
 ![Στιγμιότυπο οθόνης (70)](https://user-images.githubusercontent.com/116730698/232516964-d597a234-e83e-4ba0-ab69-7afeaa868233.png)
 ![Στιγμιότυπο οθόνης (74)](https://user-images.githubusercontent.com/116730698/232517155-5f7acd1f-bf76-4a50-afdd-6fcec2f3bf74.png)
