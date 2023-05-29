@@ -1,449 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Travel</title>
+  <link rel="stylesheet" href="./css/home-page.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <!-- <script src="https://kit.fontawesome.com/e87afdf622.js" crossorigin="anonymous"></script> -->
+  <script src="/chapter2/chapter3/home-page.js"></script>
 </head>
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Web Travel</title>
-        <link rel="stylesheet" href="./css/home-page.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-        <script src="./chapter3/home-page.js"></script>
-       
-        <script src="https://kit.fontawesome.com/e87afdf622.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="container"> 
-           
-            <div class="header"> 
-    
-              
-                
-    
-    
-                
-              
-                
-                
-                <div class="menu">
-                   
-                    <ul>
-    
-    
-    
-    
-    
-    
-                 
-                    
-                        <li><a href="#">Home</a>
-                            <ul>
-                                <li><a href="">Vision</a></li>
-                            </ul>
-                        </li>
-    
-                         
-                        <li><a href="#">Profile</a>
-                            <ul>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Contact Us</a></li>
-                            </ul>
-                        </li>
-    
-                        <li><a href="#">Destinations</a>
-                            <ul>
-                                <li><a href="">Online Booking</a></li>
-                            </ul>
-                        </li>
-    
-                         
-                        <li><a href="#">Hotels</a>
-                            <ul>
-                                <li><a href="">Rooms</a></li>
-                                <li><a href="">Airbnb</a></li>
-    
-                            </ul>
-                                 
-                        </li>   
-                        
-                        <li><a href="#">Offers</a>
-                            <ul>
-                                <li><a href="">Packages</a></li>
-                                <li><a href="">Discount</a></li>
-    
-                            </ul>
-    
-                            
-                                
-                            
-    
-    
-                        </li>
-    
-                       
-                     
-                        
-                                                
-                    
-                
-                    
-                    </ul>
-    
-                   
-                    
-    
-                </div>  
-                  
-                        
-                         
-                        
-                 
-    
-                    <div class="toggle-button">
-                      <button type="button" onclick="toggleButtonHandler()" >&#9776;</button>
-                    </div>
-        
-                
-                
-          
-    
+  <div class="container"> 
+    <div class="header"> 
+      <div class="navbar">
+        <ul class="nav">
+          <li class="dropdown"><a href="#">Home</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Vision</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#">Profile</a>
+            <ul class="dropdown-content">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#">Destinations</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Online Booking</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#">Hotels</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Rooms</a></li>
+              <li><a href="#">Airbnb</a></li>
+            </ul>
+          </li>   
+          <li class="dropdown"><a href="#">Offers</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Packages</a></li>
+              <li><a href="#">Discount</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>  
+      <div class="nav-toggle">
+        <button type="button" onclick="toggleButtonHandler()">&#9776;</button>
+      </div>
+    </div>
+  
+    <!-- Toggle Menu -->
+    <div class="toggle-menu">
+      <ul class="nav">
+        <li class="dropdown"><a href="#">Home</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Vision</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#">Profile</a>
+          <ul class="dropdown-content">
+            <li class="dropdown-content"><a href="#">About us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#">Destinations</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Online Booking</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#">Hotels</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Rooms</a></li>
+            <li><a href="#">Airbnb</a></li>
+          </ul>
+        </li>   
+        <li class="dropdown"><a href="#">Offers</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Discount</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>   
+  
+    <div class="slider">          
+      <div class="title">
+        <p>Join with us and explore the world</p>
+      </div>
+      <br>
+      <div class="subtitle">
+        <p>Book a travel and be a part of the earth!</p> 
+      </div>
+      <div class="button1">
+        <form>
+          <input id="searchInput" type="text" placeholder="Search for Cruise">
+          <button type="button" onclick="">Search</button>
+        </form> 
+      </div>
+    </div>
+  
+    <div class="main">
+      <div class="main-title">Weekly Offers</div>
+      <div class="section-header">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 col-12">
+            <div class="banner shadow">
+              <a title="Santorini" href=""> <img src="../photo-1649578787457-4585c95615f2.avif" alt="travel"></a>
+              <a title="Beijing" href=""> <img src="../photo-1650400759211-2d8ae616b006.avif" alt="travel"></a>
+              <a title="Foledam" href=""> <img src="../photo-1650561683967-d05250867241.avif" alt="travel"></a>
+              <a title="Brugge" href=""> <img src="../photo-1650789921918-a90b36a26a61.avif" alt="travel"></a>
             </div>
-            
-         <!-- Toggle Menu-->
-      
-            
-                <div class="toggle-menu">
-                   
-                    <ul>
-                 
-                    
-                        <li><a href="#">Home</a>
-                            <ul>
-                                <li><a href="">Vision</a></li>
-                            </ul>
-                        </li>
-    
-                         
-                        <li><a href="#">Profile</a>
-                            <ul>
-                                <li><a href="">About us</a></li>
-                                <li><a href="">Contact Us</a></li>
-                            </ul>
-                        </li>
-    
-                        <li><a href="#">Destinations</a>
-                            <ul>
-                                <li><a href="">Online Booking</a></li>
-                            </ul>
-                        </li>
-    
-                         
-                        <li><a href="#">Hotels</a>
-                            <ul>
-                                <li><a href="">Rooms</a></li>
-                                <li><a href="">Airbnb</a></li>
-    
-                            </ul>
-                                 
-                        </li>   
-                        
-                        <li><a href="#">Offers</a>
-                            <ul>
-                                <li><a href="">Packages</a></li>
-                                <li><a href="">Discount</a></li>
-    
-                            </ul>
-    
-                            
-                                
-                            
-    
-    
-                        </li>
-    
-                       
-                            
-                            
-                        
-    
-                       
-                    
-                
-                    
-                    </ul>
-    
-                    
-                    
-    
-                </div>   
-               
-            
-    
-            
-           
-    
-     
-               
-           
-             
-    
-    
-    
-         <!-- Toggle Menu-->
-    
-              
-    
-                <div class="slider">          
-                    <div class="title">
-                      <p>Join with us and explore the world</p>
-                    </div>
-                    <br>
-    
-    
-                    <div class="subtitle">
-                      <p> Book a travel and be a part of the earth!</p> 
-                    </div>
-                    
-                     <div class="button">
-                         <form>
-                             <input id="searchInput" type="text" placeholder="Search for Cruise">
-                              <button type="button" onclick="">Search</button>
-                         </form> 
-
-
-
-
-                     </div>
-               
-                </div>
-    
-    
-    
-    
-    
-            <div class="main">
-                    
-                <div class="main-title">Weekly Offers</div>
-                       
-           
-
-
-                        
-             
-            
-        
-            
-               
-            
-
-
-
-            
-           
-       
-    
-    
-                
-                   
-                        <div class="section-header">
-
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-12 col-12">
-                                    <div class="banner shadow">
-                                      
-                                        
-                                       
-                                       <a title="Santorini" href=""> <img src="../photo-1649578787457-4585c95615f2.avif"  alt="travel"></a>
-                                       <a title="Beijing" href=""> <img src="../photo-1650400759211-2d8ae616b006.avif"  alt="travel"></a>
-                                        <a title="Foledam" href=""> <img src="../photo-1650561683967-d05250867241.avif"  alt="travel"></a>
-                                        <a title="Brugge" href=""> <img src="../photo-1650789921918-a90b36a26a61.avif"  alt="travel"></a>
-                                       
-                                       
-                                      
-                                         
-                                          
-                       
-                       
-                                    </div>
-                       
-                                  
-                       
-                                </div>
-                       
-                       
-                       
-                       
-                              
-                   
-                       
-                       
-                       
-                       
-                       
-                       
-                            </div> 
-    
-    
-                            
-                                
-                         
-                              
-                        </div>        
-                                           
-                                        
-                     
-                        
-                      
-
-
-                        
-                          
-                             
-                </div>
-    
-       
-       
-            
-<br> <br>
-                             
-                                                               <div id="title"> <h2>Suggested Trips</h2></div>   
-                        <div class="row">
-                                  <div class="col-lg-6 col-sm-12 col-12">
-                                    <div class="banner shadow">
-                                               <div class="picture">
-                                          
-                                                
-                                             
-                                                   <a title="Cappadocia " href=""> <img src="../pexels-photo-2325446.jpeg"  alt="travel"></a>
-                                                
-                                             
-                                                  <a title="Machu Picchu" href=""> <img src="../pexels-photo-2356045.jpeg"  alt="travel"></a>
-                                            
-                                        
-                                                   <a title="Cyclades" href=""> <img src="../pexels-photo-347141.jpeg"  alt="travel"></a>
-
-                                                   <a title="Maldives" href=""> <img src="../pexels-photo-3155666.jpeg"  alt="travel"></a>
-
-                                                   <a title="Egypt" href=""> <img src="../pexels-photo-4356144.jpeg"  alt="travel"></a>
-                                            
-                                            
-
-                                        
-                                                 
-                                                   
-                                                </div> 
-                                     </div> 
-                                 </div>   
-                           
-               
-
-                                           
-
-                        </div>  
-                    
-                
-
-                
-    
-    
-    
-                         
-    
-        
-        
-        
-             <div class="footer">
-                
-                   
-                   <a href=""><i class="fa-regular fa-envelope"></i></a> 
-                   <a href="">info@traveller.com</a> 
-                   <br> <br>
-                   
-    
-    
-    
-              <div class="copyright">
-                  <p>&copy;World Traveller. 
-                   All rights reserved, 2020</p>
-             
-                
-    
-                 
-              </div> <br><br>
-              <p>Payments Methods</p>
-
-              <a href=""><i class="fa-brands fa-cc-mastercard"></i></a>
-              <a href="" ><i class="fa-brands fa-cc-visa"></i></a>
-              <a href="" ><i class="fa-brands fa-cc-paypal"></i></a>
-            
-              
-             
-                    <div class="social">
-                        <p>Follow-us</p>  
-                       
-                       
-                     
-                       
-                       <div class="social-icons">
-                           <ul class="list-inline">
-    
-                   
-                                 <a href=""><i class="fab fa-facebook-square"></i></a>
-                                 <a href=""> <i class="fab fa-instagram-square"></i></a>
-                                 <a href=""> <i class="fa-brands fa-twitter"></i></a>
-                            </ul> 
-                            
-                            
-    
-                        </div>  
-                        
-    
-    
-                                         
-    
-    
-    
-                    </div>   
-            </div>  
-    
-            
-                  
-        
+          </div>
+        </div>        
+      </div>                  
+    </div>
+  
+    <br> <br>
+    <div id="title"> <h2>Suggested Trips</h2></div>   
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 col-12">
+        <div class="banner shadow">
+          <div class="picture">
+            <a title="Cappadocia" href=""> <img src="../pexels-photo-2325446.jpeg" alt="travel"></a>
+            <a title="Machu Picchu" href=""> <img src="../pexels-photo-2356045.jpeg" alt="travel"></a>
+            <a title="Cyclades" href=""> <img src="../pexels-photo-347141.jpeg" alt="travel"></a>
+            <a title="Maldives" href=""> <img src="../pexels-photo-3155666.jpeg" alt="travel"></a>
+            <a title="Egypt" href=""> <img src="../pexels-photo-4356144.jpeg" alt="travel"></a>
+          </div> 
+        </div> 
+      </div>   
+    </div>  
+  
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="contact-info">
+          <a href="#"><i class="fas fa-envelope"></i> info@traveller.com</a>
         </div>
-       
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
-    
-    
-        
-    </body>
-    </html>
+        <div class="payment-methods">
+          <p>Payments Methods:</p>
+          <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+          <a href="#"><i class="fab fa-cc-visa"></i></a>
+          <a href="#"><i class="fab fa-cc-paypal"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Destinations</a>
+        <a href="#">Hotels</a>
+        <a href="#">Offers</a>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div> 
+
+
+
 </body>
 </html>
